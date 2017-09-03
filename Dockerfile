@@ -21,6 +21,7 @@ COPY eventstore.conf /etc/eventstore/
 COPY projections/clock.js /etc/eventstore/
 COPY projections/current-deadlines.js /etc/eventstore/
 COPY projections/tags.js /etc/eventstore/
+COPY projections/app-info.js /etc/eventstore/
 COPY deploy-projection.sh /
 COPY deploy-projections.sh /
 COPY entrypoint.sh /
